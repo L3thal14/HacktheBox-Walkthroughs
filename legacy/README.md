@@ -1,8 +1,10 @@
 <img src="https://github.com/L3thal14/HacktheBox-Walkthroughs/blob/master/legacy/screenshots/logo.png?raw=true" height="200"  /> 			
 
 #	Legacy
-**Difficulty** : Easy
+**Difficulty** : Easy 
+
 **IP Address** : 10.10.10.3 
+
 **OS**: Windows
 
 ## Scanning
