@@ -1,6 +1,6 @@
 <img src="https://github.com/L3thal14/HacktheBox-Walkthroughs/blob/master/Boxes/legacy/screenshots/logo.png?raw=true" height="200"  /> 			
 
-#	Boxes/Legacy
+#	Legacy
 **Difficulty** : Easy 
 
 **IP Address** : 10.10.10.3 
