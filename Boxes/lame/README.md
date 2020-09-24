@@ -38,7 +38,7 @@ Check the options and set RHOST and LHOST parameters accordingly and run the exp
 
 **Boom!** 
 We end up with a command shell.
-But, we are not done yet since we are still don't have access to the root user.
+But, we are not done yet since we still don't have access to the root user.
 Time to search for SSH keys on the machine.
 Run the command:
 ``` cat /root/.ssh/authorized_keys```
@@ -46,7 +46,7 @@ Run the command:
 
 We end up with a SSH key but it is encrypted using RSA Algorithm.
 So, for decrypting it, we are going to use a tool which can be downloaded from [here](https://github.com/g0tmi1k/debian-ssh/blob/master/common_keys/debian_ssh_rsa_2048_x86.tar.bz2) .
-Download the **tar.bz2** file and open a terminal inside /rsa/2048/ folder.
+Download the **tar.bz2** file,extract it and open a terminal inside /rsa/2048/ folder.
 Now, run the command:
 ``` grep -lir <RSA Encrypted SSH key> *.pub```
 <img src="https://github.com/L3thal14/HacktheBox-Walkthroughs/blob/master/Boxes/lame/screenshots/ssh_decrypted_lame.png?raw=true"/>
@@ -58,6 +58,7 @@ Now we are going to plug this in with the SSH command to login to the machine as
 
   **Voila!** We are finally in! and this time around we have root privileges too.
   Now, we need to find the user.txt and root.txt files to get the flags which are usually placed either in **root** or **home** folder.
+  
   <img src="https://github.com/L3thal14/HacktheBox-Walkthroughs/blob/master/Boxes/lame/screenshots/rooted_2_lame.png?raw=true"/>  
   
 
