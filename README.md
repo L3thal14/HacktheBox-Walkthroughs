@@ -8,6 +8,7 @@
 
 <ul>
    <li> <a href="https://github.com/L3thal14/HacktheBox-Walkthroughs/tree/master/Boxes/legacy">Legacy</a> </li>
+  <li> <a href="https://github.com/L3thal14/HacktheBox-Walkthroughs/tree/master/Boxes/lame">Lame</a> </li>
 </ul>
 
 
