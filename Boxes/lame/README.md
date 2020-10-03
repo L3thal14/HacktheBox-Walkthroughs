@@ -52,7 +52,7 @@ Now, run the command:
 <img src="https://github.com/L3thal14/HacktheBox-Walkthroughs/blob/master/Boxes/lame/screenshots/ssh_decrypted_lame.png?raw=true"/>
 
 The output is ```<Decrypted SSH key>.pub```
-Copy this Decrupted SSH key.
+Copy this Decrypted SSH key.
 Now we are going to plug this in with the SSH command to login to the machine as the **root** user.
 <img src="https://github.com/L3thal14/HacktheBox-Walkthroughs/blob/master/Boxes/lame/screenshots/rooted_1_lame.png?raw=true"/>
 
