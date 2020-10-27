@@ -11,7 +11,7 @@
   <li> <a href="https://github.com/L3thal14/HacktheBox-Walkthroughs/tree/master/Boxes/lame">Lame</a> </li>
 </ul>
 
-
+![Arrexel](http://www.hackthebox.eu/badge/image/245676)
 
 [![Maintenance](https://img.shields.io/maintenance/yes/2020?color=green&logo=github)](https://github.com/L3thal14)
 
